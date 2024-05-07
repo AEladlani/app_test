@@ -8,17 +8,17 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
-profile_pic = current_dir / "assets" / "profile-pic.jpg"
+profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | Omar Ennaji"
+PAGE_TITLE = "Digital CV | Kolo Kolo"
 PAGE_ICON = ":wave:"
-NAME = "Omar Ennaji"
+NAME = "KoKo KOko"
 DESCRIPTION = """
 Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
 """
-EMAIL = "omar.ennaji@email.com"
+EMAIL = "koko.kaka@email.com"
 SOCIAL_MEDIA = {
     "YouTube": "https://youtube.com/c/codingisfun",
     "LinkedIn": "https://linkedin.com",
